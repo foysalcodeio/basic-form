@@ -9,4 +9,7 @@
  * nameREf.current.value
  * 
  * 5. use hook to handle state and submit and error. example react hook form
+ * 
+ * 
+ * alt+shift + downarrow
  */
