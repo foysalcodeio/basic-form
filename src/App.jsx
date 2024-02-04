@@ -1,13 +1,16 @@
 
 import './App.css'
-import StateFullForm from './Components/StateFullForm/StateFullForm'
+import ReuseAbleForm from './Components/ReuseAbleForm/ReuseAbleForm'
+
+
 
 
 function App() {
 
   return (
     <>
-      <StateFullForm />
+      <ReuseAbleForm />
+
     </>
   )
 }
