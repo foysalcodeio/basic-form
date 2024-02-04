@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ReuseAbleForm = ({ formTitle, handleSubmit, submitBtnText='Submit' }) => {
+const ReuseAbleForm = ({ formTitle, handleSubmit, submitBtnText='Submit', children }) => {
     // const handleSubmit = (e) => {
     //     e.preventDefault();
     // }
@@ -13,9 +13,13 @@ const ReuseAbleForm = ({ formTitle, handleSubmit, submitBtnText='Submit' }) => {
         }
         handleSubmit(data)
     }
+
     return (
         <form onSubmit={handleLocalSubmit}>
-            <h1>{formTitle}</h1>
+
+            {/* <h1>{formTitle}</h1> */}
+            {children}
+            
             <input type="text" name="name" />
             <br />
             <input type="email" name="email" />
